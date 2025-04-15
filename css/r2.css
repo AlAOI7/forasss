@@ -1,0 +1,91 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+  margin: 140;
+  padding: 90;
+  background-color: #eeeeee;
+  min-width: 320px; /* Set minimum width for mobile devices */
+ /* استبدل path/to/your/image.jpg بمسار الصورة الفعلي */
+  background-size: cover; /* يجعل الصورة تمتلئ تمامًا بخلفية العنصر */
+background-position: center;
+}
+
+
+  /* Header styles */
+  #p1 {
+    text-align: center;
+    padding: 20px;
+  }
+ 
+  h1 {
+    
+   height: 100px;
+
+  text-align:center;
+    color: rgb(18, 17, 17); /* White text color for contrast with background image */
+  }
+  h1 img{
+    float: left;
+   
+    text-align: center;
+    background-size: cover; /* يجعل الصورة تمتلئ تمامًا بخلفية العنصر */
+    
+
+  }
+  
+  /* Table styles */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #111010;
+  }
+  
+  th {
+    background-color: #abccb58a;
+  }
+  
+  /* Button styles */
+  #p3 {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  button {
+    background-color: #f8fff8b0;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #8fa890;
+  }
+  
+@media (max-width: 768px) {
+    header {
+      flex-direction: column; /* Stack logo and navigation vertically */
+      
+      align-items: flex-start; /* Align logo and navigation to the left */
+    }
+  }
+    .navigation {
+      flex-direction: column; /* Stack buttons vertically */
+      gap: 10px; /* Reduce gap between buttons */
+    }
+    
+footer {
+    background-color: #abccb58a;
+    color: #060505;
+    padding: 20px;
+     position: fixed;
+     bottom: 0;
+     width: 160%;
+    text-align: center;
+  }

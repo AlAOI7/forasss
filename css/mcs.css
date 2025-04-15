@@ -1,0 +1,22 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+ body { font-family: Arial, sans-serif; background-color: #eeeeee; } 
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); 
+ * { font-family: "Roboto", sans-serif; padding: 0; box-sizing: border-box; scroll-behavior: smooth; } 
+ header { background-color: #75bb8ae8; border: 1px solid #bab9b9; width: 100%; z-index: 999; display: flex; justify-content: space-between; align-items: center; } 
+ .navigation a { color: #000000; text-decoration: none; font-size: 1.1em; font-weight: 400; padding-left: 30px; } 
+ .navigation a:hover { color: #601cfc; }
+  h1 { font-size: 30px; }
+  #p2 { height: 580px; width: 30%; text-align: center; float: right; color: #000000; border: 1px solid #bab9b9; padding: 20px 30px; line-height: 14; background-image: url('a.png'); background-position: left; /* تحديد موقع الخلفيات */ background-repeat: no-repeat, no-repeat; /* عدم تكرار الصور */ background-size: 100%, 10px; /* تحديد حجم الصور */ p { font-family: Arial, sans-serif; color: black; } }
+   #p2 img { border-radius: 50%; margin-top: 5%; margin-bottom: 10%; margin-right: 20%; } 
+   p { margin-right: 5%; margin-top: 2%; margin-bottom: 5%; } #p3
+   { padding-top: 2%; padding-right: 2%; border: 1px solid #bab9b9; height: 580px; width: 70%; text-align: right; color: #000000; }
+   #p_3 { padding: 20px; padding-top: 3; padding: right 10%; padding-bottom: 20px; border: 1px solid #bab9b9; height: 580px; width: 100%; text-align: right; color: #000000; line-height: 1.5; label { display: block; } 
+   background-image: url('m.png'); background-position: left; /* تحديد موقع الخلفيات */ bottom: 0; left: 0; background-repeat: no-repeat, no-repeat; /* عدم تكرار الصور */ background-size: 300px; /* تحديد حجم الصور */ } 
+   h2 { padding-top: 2%; padding-bottom: 1%; } 
+   h3 { padding: 3px 20px; }
+   #h1 { margin-top: 45%; margin-right: 40px; } 
+   #h2 { padding: 20px 20px; }
+    #p4 { background-color: #75bb8ae8; text-align: center; padding: 200px;  border-radius: 10px; }
+     #p_1 { background-color: #75bb8ae8; text-align: center; padding: 200px; margin-top: 20px; border-radius: 10px; } 
+button { color: black; border: none; padding: 10px 20px; cursor: pointer; text-align: center; background-color: #45a049; } 
+button:hover { background-color: #3cdf44; }

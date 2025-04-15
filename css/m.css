@@ -1,0 +1,221 @@
+*
+/* إعدادات عامة */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* خلفية الصفحة */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('image/cc.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #75bb8ae8;
+    border: 1px solid #bab9b9;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#p4 {
+    background-color: #75bb8ae8;
+    color: #060505;
+    bottom: 0;
+    height: 100px;
+    text-align: center;
+}
+
+
+/* عنوان رئيسي */
+
+h1 {
+    margin: 20px 0;
+    color: #000000;
+    text-align: center;
+    /* توسيط العنوان */
+}
+
+
+/* أزرار */
+
+button {
+    background-color: #9faeba;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+/* فقرات نصية */
+
+p {
+    margin: 10px 0;
+    background-color: #9faeba;
+    color: #000000;
+}
+
+
+/* أقسام المحتوى */
+
+#p1,
+#p2,
+#p3 {
+    padding: 20px;
+}
+
+
+/* محتوى القسم الأول */
+
+#p1 {
+    background-color: #8cab968a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* محتوى القسمين الثاني والثالث */
+
+#p2,
+#p3 {
+    background-color: #718a798a;
+    margin-top: 0;
+    border-radius: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 0);
+    float: right;
+    margin-right: 0;
+}
+
+
+/* صورة القسم الثاني */
+
+#p2 img {
+    border-radius: 50%;
+}
+
+
+/* نص القسم الثاني والثالث */
+
+#p2 p,
+#p3 p {
+    font-size: 70px;
+    line-height: 1.6;
+}
+
+
+/* مجموعة الأزرار */
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* تأثير عند تحويم الزر */
+
+button:hover {
+    background-color: #8cab968a;
+}
+
+
+/* تنسيقات خاصة بالعناصر .textbox و .radio-buttons */
+
+.textbox {
+    direction: rtl;
+}
+
+.textbox span {
+    margin-right: 40px;
+}
+
+.textbox .radio-buttons input[type="radio"] {
+    margin-right: 40px;
+}
+
+
+/* جدول الفرص التطوعية */
+
+.opportunity {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #eee;
+    padding: 20px;
+    /* تم تصحيح قيمة الحشو */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* عنوان الجدول */
+
+.opportunity h1 {
+    color: #333;
+    text-align: center;
+}
+
+
+/* تصميم جدول البيانات */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+
+/* تحديد حدود الجدول والخلفية */
+
+table,
+th,
+td {
+    border: 7px solid #8cab968a;
+}
+
+
+/* تحديد الحشو والمحاذاة للعناصر داخل الجدول */
+
+th,
+td {
+    padding: 20px;
+    /* تم تعديل قيمة الحشو */
+    text-align: right;
+}
+
+
+/* تصميم عنوان الأعمدة */
+
+th {
+    background-color: #8cab968a;
+}
+
+
+/* تصميم أزرار الراديو */
+
+.radio-buttons {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/* تحديد المسافة بين النص والزر */
+
+label {
+    margin-right: 10px;
+    /* تم تعديل قيمة المسافة */
+}
